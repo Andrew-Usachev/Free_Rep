@@ -17,7 +17,7 @@
 							"",
 							"",
 							"pm.test(\"Проверяем тип\", function () {",
-							"    pm.expect(jsonData.type).to.eql(\"email\");",
+							"    pm.expect(jsonData.type).to.eql(\"error\");",
 							"});",
 							"",
 							"pm.test(\"Проверяем сообщение об ошибке\", function () {",
